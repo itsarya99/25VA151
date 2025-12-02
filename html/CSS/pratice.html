@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice css</title>
+    <style>
+        *html{
+            margin: 0;
+            padding:0;}
+            .nav{
+                height: 80px;
+                width: 100%;
+                background-color: rgb(1, 21, 21);
+                color: white;
+            }
+        .box1{
+            background-color: green;
+            width: 50%;
+            height: 90vh;
+            display: inline-block;
+            position: relative;
+            top: 20px;
+            bottom: 20px;}
+
+        .box2{
+            background-color: red;
+            width: 50%;
+            height: 90vh;
+            display:inline-block;
+            
+             
+        }   
+        footer{
+
+        }     
+        .foot{
+            text-align: center;
+            font-weight: 100;
+        font-family: 'Courier New', Courier, monospace;
+        padding: 3px;
+            }
+       nav ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+       }
+
+       /*positioning in css
+       static : default value  elements are positioned according to the normal flow of the webpage
+         relative : element is positioned relative to its normal position
+            absolute : element is positioned relative to its nearest positioned ancestor
+            fixed : element is positioned relative to the viewport and remains in the same position even when the page is scrolled
+            sticky : element is positioned based on the user's scroll position
+         */
+
+
+         /* box model in css
+            content : actual content of the element
+            padding : space between content and border
+            border : border around the padding
+            margin : space outside the border
+            */
+            /*flexbox in css
+            flex box means flexible box it is a layout model that allows to design a complex layout structure in a simple way
+   */ </style>
+    </head>
+<body>
+    
+    <div class="nav">>
+        <ul>
+            <li><a href="#" >home</a></li>
+            <li><a href="#">about</a></li>
+        </ul>
+    </div>
+    <div class="box1"> hi i am arya </div><div class="box2"> i am in 1st year</div>
+    <footer><p class="foot">&copy; all rights are reserved</p></footer>
+    
+</body>
+</html>

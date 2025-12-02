@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text& inline elements</title>
+    <style>
+        .box1 {
+            width: 400px;
+            height: 200px;
+            background-color: aqua;
+            text-align: justify;
+            /* display: inline;  by default div is a block element but after applying display inline it behaves like an inline element */
+            /* inline elements do not start from a new line and only take as much width as necessary  */
+            /* block elements start from a new line and take the full width available  */
+            /* display: inline-block; it is a mix of both block and inline elements */
+            /*it behaves like a block element but it does not start from a new line  
+            and only takes as much width as necessary 
+            width and height can be applied to inline-block elements*/
+        }
+
+        .box2 {
+            height: 400px;
+            width: 600px;
+            /* display: inline; */
+            background-color: brown;
+            text-align: justify;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;/*use google fonts for better appearance of text */
+        }
+
+        /*display:none;  this will hide the element from the webpage but display:hidden; will hide the element but it will still occupy space on the webpage but will not be visible */
+        /*text alignment  do not change the position of the element rather change the position of the text inside the element */
+
+        /* .box1{
+            text-align: justify ;}/* text will be aligned to both left and right sides 
+            means that the text will be stretched so that it touches both left and right sides of the element
+            */
+        /*.box2{
+            text-align: justify;}
+         */
+
+         /* font properties 
+            font-size:  font-family:  font-weight:  font-style:  text-decoration:  line-height: */
+    </style>
+</head>
+
+<body>
+    <div class="box1">Lorem ipsum dolor sit amet consectetur adipisicing.
+    </div>
+    <div class="box2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, nemo.</div>
+
+</body>
+
+</html>
