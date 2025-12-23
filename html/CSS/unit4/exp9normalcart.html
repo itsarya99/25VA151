@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile card</title>
+    <style>
+        /*make a responive e commerce product page with header , footer and section having image of product with details of product in center of page using flexbox*/
+        html,
+        * {
+            margin: 0;
+            padding: 0;
+            
+        }
+        body{
+            /* display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; */
+            background-color: aliceblue;
+
+        }
+        
+
+        main {
+            width: 700px;
+            height: 350px;
+            background-color: rgb(236, 241, 242);
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 10px;
+            
+
+
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+        
+           
+            margin-top: 10px;
+        }
+
+        .box {
+            height: 300px;
+            width: 200px;
+            background-color: lavender;
+            text-align: center;
+            padding: 10px;
+            margin: 15px;
+            box-sizing: border-box;
+
+        }
+        @media screen and (max-width:768px ){
+            main{
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                gap: 10px;
+            }
+            
+        }
+        @media screen and (max-width:375px) {
+            main{
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                gap: 10px;
+            }
+            
+        }
+        @media screen and (max-width:768px) {
+            .box{
+                background-color: lightgray;
+               
+            }
+            
+        }
+
+        header {
+            height: 80px;
+            width: 100%;
+            background-color: rgb(2, 2, 2);
+            color: aliceblue;
+            text-align: center;
+            padding: 20px;
+        }
+        footer {
+            height: 60px;
+            width: 100%;
+            background-color: rgb(43, 107, 197);
+            color: aliceblue;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>THE SOULED STORE</h1>
+    </header>
+    <main>
+        <div class="box">
+            <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1764570997_7121354.jpg?w=480&dpr=2" alt="profile 1" border-radius="50%" height="100px" width="100px">
+            <h3>Nomad:Manuscript</h3>
+            <h4>Women Oversized T-Shirts</h4>
+            <p>$129</p>
+           
+
+
+            </p>
+        </div>
+        <div class="box">
+            <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1721708977_6945007.jpg?w=480&dpr=2" alt="profile image" border-radius="50%" height="100px" width="100px">
+             <h3>Minions: Easily Unimpressed</h3>
+            <h4>Women Oversized T-Shirts</h4>
+            <p>$250</p>
+        </div>
+        <div class="box">
+            <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1763632514_8930313.jpg?w=480&dpr=2" alt="profile 3" border-radius="50%" height="100px" width="100px">
+
+           <h3>TSS Originals: No More Drama</h3>
+           <h4>Women Oversized T-Shirts</h4>
+              <p>$200</p>
+s
+        </div>
+        <!-- <footer>
+            <h2>ADD TO CART</h2>
+        </footer> -->
+
+    </main>
+
+</body>
+
+</html>
